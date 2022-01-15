@@ -30,7 +30,7 @@ export const HomeScreen = () => {
             <IconSvgAdd />
           </TouchableOpacity>
           <TouchableOpacity style={{marginRight: 20}}>
-            <IconSvgHeart />
+            <IconSvgHeart valueOf={false} />
           </TouchableOpacity>
           <TouchableOpacity>
             <IconSvgMessenger />

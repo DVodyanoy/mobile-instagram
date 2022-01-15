@@ -31,7 +31,7 @@ export const PostCard = (data: IPostTypes) => {
       <View style={styles.container}>
         <View style={styles.flexRow}>
           <TouchableOpacity style={{marginLeft: 3}}>
-            <IconSvgHeart />
+            <IconSvgHeart valueOf={false} />
           </TouchableOpacity>
 
           <TouchableOpacity style={{marginLeft: 12}}>
